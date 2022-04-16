@@ -1,0 +1,29 @@
+theme = "lynx"
+title = "Wayne Phillips"
+languageCode = "us"
+baseUrl = "https://waynephillips.github.io"
+googleAnalytics = "G-NZ7C1P4YT0"
+
+enableEmoji = true
+disableKinds = ["taxonomy", "term"]
+
+[author]
+  image = "author.jpeg"
+  alternative = "Wayne Phillips | Husband | Innovator | Software Engineer | Learner | Leader"
+  links = [
+    { github = "https://github.com/waynephillips" },
+    { medium = "https://medium.com/@wayne_phillips" },
+    { twitter = "https://twitter.com/waynephillips" },
+    { linkedin = "https://www.linkedin.com/in/waynephillips" },
+  ]
+
+[markup.highlight]
+  noClasses = false
+
+[markup.goldmark]
+[markup.goldmark.renderer]
+  unsafe = true
+
+[params]
+  keywords = "waynephillips,wayne,phillips,software,engineer,developer,profile,blogger,architect"
+  robots = "index,follow"
